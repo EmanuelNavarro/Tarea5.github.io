@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zaguate World</title>
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <img src="images/sun.png" alt="sunshine" style="position: absolute; margin-top: -15px;"/>
+        <div class="row justify-content-center">
+            <div id="main" class="row bg-white rounded w-50 p-3  mb-2">
+
+                <!--Cabecera-->
+                <header>
+                    <img src="images/logo.png" alt="sunshine" class="img-fluid mb-3" />
+                </header>
+    
+                <!--Navegacion-->
+                <nav class="my-navbar navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                          aria-label="Toggle navigation">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16">
+                              <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <ul class="navbar-nav">
+                              <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="conciencia.html">Conciencia</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="noticias.html">Noticias</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="galeria.html">Galería</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Adoptar
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="pequeños.html">Zaguates Pequeños</a></li>
+                                      <li><a class="dropdown-item" href="medianos.html">Zaguates Medianos</a></li>
+                                      <li><a class="dropdown-item" href="grandes.html">Zaguates Grandes</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="acerca.html">Acerca de Nosotros</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+    
+                <main class="row" id="contenido-principal">
+                    <section class="h-100 h-custom">
+                        <div class="container py-5 h-100">
+                          <div class="row d-flex justify-content-center align-items-center h-100">
+                            <div class="col-lg-8 col-xl-6">
+                              <div class="card rounded-3">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+                                <div class="card-body p-4 p-md-5">
+                                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registrarse</h3>
+                      
+                                  <form class="px-md-2">
+                      
+                                    <div class="form-outline mb-4">
+                                      <input type="text" id="form3Example1q" class="form-control" />
+                                      <label class="form-label" for="form3Example1q">Nombre</label>
+                                    </div>
+                      
+                                    <div class="row">
+                                      <div class="col-md-6 mb-4">
+                      
+                                        <div class="form-outline datepicker">
+                                          <input
+                                            type="text"
+                                            class="form-control"
+                                            id="exampleDatepicker1"
+                                          />
+                                          <label for="exampleDatepicker1" class="form-label">Fecha de Nacimiento</label>
+                                        </div>
+                      
+                                      </div>
+                                      <div class="col-md-6 mb-4">
+                      
+                                        <select class="select">
+                                          <option value="1">Masculino</option>
+                                          <option value="2">Femenino</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                      
+                                    <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                </main>
+    
+                <!--Pie de Página-->
+                <footer>
+                    <div id="container-footer">
+                  
+                        <a class="links" href="index.html">Home</a>
+                        <a class="links" href="conciencia.html">Conciencia</a>
+                        <a class="links" href="noticias.html">Noticias</a>
+                        <a class="links" href="galeria.html">Galería</a>
+                        <a class="links last" href="acerca.html">Acerca de Nosotros</a>
+                        <br>
+                        <p>Copyright© Zaguate World</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
